@@ -1,6 +1,6 @@
 body {
     background-image: linear-gradient(to right bottom, #000000, #050505, #090909, #0d0d0d, #111111);
-    font-family: "Roboto", sans-serif
+    font-family: "inter"
 }
 
 body .navbar {
