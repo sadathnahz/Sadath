@@ -32,7 +32,7 @@ body .navbar .get-in-touch {
 }
 
 body article {
-    padding-top: 110px
+    padding-top: 120px
 }
 
 body article .content-wrapper {
@@ -69,7 +69,7 @@ body article .content-wrapper .hero p {
 }
 
 body article .content-wrapper .section-1 {
-    padding: 8vmax 0
+    padding: 6vmax 0
 }
 
 body article .content-wrapper .section-1 h3 {
@@ -89,12 +89,12 @@ body article .content-wrapper .section-1 .card .card-img-top {
 }
 
 body article .content-wrapper .section-1 .card .card-body {
-    padding: 34px 0
+    padding: 36px 0
 }
 
 body article .content-wrapper .section-1 .card .card-body h5 {
     color: #fff;
-    margin-bottom: 2rem
+    margin-bottom: 1rem
 }
 
 body article .content-wrapper .section-1 .card .card-body h5 a {
@@ -137,7 +137,7 @@ body article .content-wrapper .section-2 .more p a {
     text-decoration-style: solid;
     -webkit-text-decoration-color: currentColor;
     text-decoration-color: currentColor;
-    text-decoration-thickness: 1px;
+    text-decoration-thickness: 2px;
     text-underline-offset: .2em
 }
 
