@@ -4,13 +4,13 @@ body {
 }
 
 body .navbar {
-    padding: 15px 20px;
+    padding: 12px 12px;
     background-color: #070707
 }
 
 body .navbar a {
     font-size: calc(.6vw + 1rem);
-    font-weight: 400;
+    font-weight: 500;
     text-decoration: none
 }
 
@@ -32,7 +32,7 @@ body .navbar .get-in-touch {
 }
 
 body article {
-    padding-top: 120px
+    padding-top: 160px
 }
 
 body article .content-wrapper {
@@ -42,9 +42,9 @@ body article .content-wrapper {
 body article .content-wrapper .hero h2 {
     color: #fff;
     font-size: calc(2.4vh + 1rem);
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.15;
-    margin-bottom: 20px
+    margin-bottom: 24px
 }
 
 body article .content-wrapper .hero h2 a {
@@ -56,7 +56,7 @@ body article .content-wrapper .hero h2 a {
     -webkit-text-decoration-color: currentColor;
     text-decoration-color: currentColor;
     text-decoration-thickness: 1px;
-    text-underline-offset: .2em;
+    text-underline-offset: .1em;
     -webkit-text-decoration-skip: auto;
     text-decoration-skip: auto;
     -webkit-text-decoration-skip: ink;
@@ -74,7 +74,7 @@ body article .content-wrapper .section-1 {
 
 body article .content-wrapper .section-1 h3 {
     font-size: calc(.6vw + 1rem);
-    font-weight: 400;
+    font-weight: 600;
     color: #fff
 }
 
@@ -126,7 +126,7 @@ body article .content-wrapper .section-2 .more h2 {
 body article .content-wrapper .section-2 .more p {
     font-size: calc(0vh + 1rem);
     color: #fff;
-    font-weight: 300
+    font-weight: 400
 }
 
 body article .content-wrapper .section-2 .more p a {
