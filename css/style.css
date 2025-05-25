@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap');
 body {
     background-image: linear-gradient(to right bottom, #000000, #050505, #090909, #0d0d0d, #111111);
-    font-family: "Plus Jakarta Sans"
+    font-family: 'Manrope', sans-serif;
 }
 
 body .navbar {
@@ -99,8 +100,8 @@ body article .content-wrapper .section-1 .card .card-body h5 {
 
 body article .content-wrapper .section-1 .card .card-body h5 a {
     color: #fff;
-    -webkit-text-decoration-line: underline;
-    text-decoration-line: underline;
+    -webkit-text-decoration-line: none;
+    text-decoration-line: none;
     -webkit-text-decoration-style: solid;
     text-decoration-style: solid;
     -webkit-text-decoration-color: currentColor;
@@ -131,8 +132,8 @@ body article .content-wrapper .section-2 .more p {
 
 body article .content-wrapper .section-2 .more p a {
     color: #fff;
-    -webkit-text-decoration-line: underline;
-    text-decoration-line: underline;
+    -webkit-text-decoration-line: none;
+    text-decoration-line: none;
     -webkit-text-decoration-style: solid;
     text-decoration-style: solid;
     -webkit-text-decoration-color: currentColor;
@@ -158,8 +159,8 @@ body footer .address p {
 
 body footer .address p a {
     color: #fff;
-    -webkit-text-decoration-line: underline;
-    text-decoration-line: underline;
+    -webkit-text-decoration-line: none;
+    text-decoration-line: none;
     -webkit-text-decoration-style: solid;
     text-decoration-style: solid;
     -webkit-text-decoration-color: currentColor;

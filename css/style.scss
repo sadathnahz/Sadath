@@ -1,6 +1,10 @@
 body{
     background-image: linear-gradient(to right bottom, #000000, #050505, #090909, #0d0d0d, #111111);
-    font-family: 'manrope';
+    .caprasimo-regular {
+        font-family: "Caprasimo", serif;
+        font-weight: 400;
+        font-style: normal;
+      }      
     .navbar{
         padding: 15px 20px;
         a{
