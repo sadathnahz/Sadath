@@ -38,10 +38,10 @@ body {
 }
 
 .about h4 {
-  font-weight: 500;
+  font-weight: 300;
   color: #c1c1c1;
-  text-transform: uppercase;
-  margin-bottom: 12px;
+  text-transform: Paragraph;
+  margin-bottom: 16px;
 }
 
 .about h1 {

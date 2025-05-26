@@ -1,9 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap');
 body {
     background-image: linear-gradient(to right bottom, #000000, #050505, #090909, #0d0d0d, #111111);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+
     font-family: 'Manrope', sans-serif;
 }
-
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    min-height: 100vh;
+    padding: 20px;
+    text-align: center;
+  }
 body .navbar {
     padding: 12px 12px;
     background-color: #070707
@@ -189,6 +202,7 @@ body footer .address h2 {
     font-weight: 400;
     font-size: calc(2.4vh + 1rem);
     color: #fff;
+    align-self: center;
     margin-bottom: 2rem
 }
 
