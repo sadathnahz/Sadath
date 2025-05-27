@@ -75,7 +75,13 @@ body .navbar .nav-item {
     text-decoration: none;
   }
   
-
+  .light-text {
+    color: #b3b3b3;
+    font-size: 12px;
+    font-style: italic;
+    margin-top: -8px;
+  }
+  
 body article {
     padding-top: 160px
 }
