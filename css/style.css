@@ -21,7 +21,41 @@ body .navbar {
     padding: 12px 12px;
     background-color: #070707
 }
-
+.availability-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: #0a0a0a;
+    border-radius: 999px;
+    color: #2ecc71;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    background: #2ecc71;
+    border-radius: 50%;
+    animation: heartbeat 1.5s infinite;
+  }
+  
+  @keyframes heartbeat {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(46, 204, 113, 0.4);
+    }
+    50% {
+      transform: scale(1.4);
+      box-shadow: 0 0 0 6px rgba(46, 204, 113, 0);
+    }
+    100% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(46, 204, 113, 0);
+    }
+  }
+  
 body .navbar a {
     font-size: calc(.6vw + 1rem);
     font-weight: 500;
@@ -62,7 +96,7 @@ body .navbar .nav-item {
     font-weight: 500;
     text-decoration: none;
     transition: background 0.3s ease, transform 0.2s ease;
-    margin-top: 24px;
+    margin-top: 16px;
     margin-left: auto;
     gap: 8px;
     border: none;
@@ -81,13 +115,71 @@ body .navbar .nav-item {
     font-style: italic;
     margin-top: -8px;
   }
+  .workshots-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    white-space: nowrap;
+    cursor: grab;
+    padding-bottom: 1rem;
+  }
+  
+  .workshots-track {
+    display: flex;
+    gap: 16px;
+    padding: 10px 0;
+    margin-top: 96px;
+  }
+  
+  .shot {
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    text-align: center;
+    width: 80vw; /* makes items smaller on mobile */
+    max-width: 800px;
+  }
+  
+  .shot img {
+    width: 100%;
+    height: auto;
+    max-height: 450px; /* limit height on large screens */
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 24px;
+  }
+  
+  /* On smaller screens, scale down the height */
+  @media (max-width: 992px) {
+    .shot img {
+      max-height: 480px; /* or adjust to your preference */
+      margin-top: 16px;
+    }
+  
+    .shot {
+      width: 85vw;
+    }
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .shot-title {
+    margin-top: 8px;
+    color: #ccc;
+    font-size: 14px;
+  }
+
+  
   
 body article {
-    padding-top: 160px
+    padding-top: 240px
 }
 
 body article .content-wrapper {
-    padding: 10vmax 20px
+    padding: 12vmax 20px
 }
 
 body article .content-wrapper .hero h2 {
@@ -95,7 +187,8 @@ body article .content-wrapper .hero h2 {
     font-size: calc(2.4vh + 1rem);
     font-weight: 500;
     line-height: 1.15;
-    margin-bottom: 24px;
+    margin-bottom: 12px;
+    margin-top: 48px;
 }
 
 body article .content-wrapper .hero h2 a {
@@ -127,7 +220,7 @@ body article .content-wrapper .hero p {
 }
 
 body article .content-wrapper .section-1 {
-    padding: 6vmax 0
+    padding: 8vmax 0
 }
 
 body article .content-wrapper .section-1 h3 {
@@ -148,12 +241,12 @@ body article .content-wrapper .section-1 .card .card-img-top {
 }
 
 body article .content-wrapper .section-1 .card .card-body {
-    padding: 36px 0
+    padding: 24px 0
 }
 
 body article .content-wrapper .section-1 .card .card-body h5 {
     color: #fff;
-    margin-bottom: 1rem
+    margin-bottom: 16px
 }
 
 body article .content-wrapper .section-1 .card .card-body h5 a {
@@ -260,7 +353,7 @@ body footer .about {
     }
 
     body article .content-wrapper {
-        padding: 10vmax 50px
+        padding: 6vmax 50px
     }
 
     body article .content-wrapper .hero {
