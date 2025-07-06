@@ -122,6 +122,12 @@ body .navbar .nav-item {
     white-space: nowrap;
     cursor: grab;
     padding-bottom: 1rem;
+  
+    /* Add these lines to hide scrollbar */
+    scrollbar-width: none; 
+  }
+  .workshots-scroll::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
   }
   
   .workshots-track {
@@ -142,7 +148,7 @@ body .navbar .nav-item {
   .shot img {
     width: 100%;
     height: auto;
-    max-height: 450px; /* limit height on large screens */
+    max-height: 490px; /* limit height on large screens */
     border-radius: 4px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     margin-top: 24px;
@@ -188,7 +194,7 @@ body article .content-wrapper .hero h2 {
     font-weight: 500;
     line-height: 1.15;
     margin-bottom: 12px;
-    margin-top: 48px;
+    margin-top: 32px;
 }
 
 body article .content-wrapper .hero h2 a {
