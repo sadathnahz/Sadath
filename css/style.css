@@ -17,9 +17,9 @@ body {
     padding: 20px;
     text-align: center;
   }
-body .navbar {
-    padding: 16px 16px;
-    background-color: #070707
+  body .navbar {
+    background-color: rgba(7, 7, 7, 0.8); /* 0.8 = 80% opacity */
+    padding: 12px;
 }
 .availability-badge {
     display: inline-flex;
@@ -231,7 +231,7 @@ body article .content-wrapper .section-1 {
 
 body article .content-wrapper .section-1 h3 {
     font-size: calc(.6vw + 1rem);
-    font-weight: 600;
+    font-weight: 400;
     color: #fff;
     margin-bottom: 24px;
 }
