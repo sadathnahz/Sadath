@@ -18,7 +18,7 @@ body {
     text-align: center;
   }
 body .navbar {
-    padding: 12px 12px;
+    padding: 16px 16px;
     background-color: #070707
 }
 .availability-badge {
@@ -181,7 +181,7 @@ body .navbar .nav-item {
   
   
 body article {
-    padding-top: 240px
+    padding-top: 180px
 }
 
 body article .content-wrapper {
@@ -220,7 +220,7 @@ body article .content-wrapper .hero h2 a {
 
 body article .content-wrapper .hero p {
     word-wrap: break-word;
-    max-width: 500px;
+    max-width: 540px;
     margin-right: auto;
     color: #e0e0db
 }
