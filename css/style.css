@@ -137,40 +137,45 @@ body .navbar .nav-item {
     margin-top: 96px;
   }
   
+/* === Workshots carousel === */
+.shot {
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  text-align: center;
+
+  width: 80vw;          /* fills most of the viewport */
+  max-width: 800px;     /* desktop cap */
+
+  /* Keeps a fixed shape so the browser never has to upscale
+     → no more blurry photos on high-density screens */
+  aspect-ratio: 16 / 9;
+  margin-top: 24px;
+}
+
+.shot img {
+  width: 100%;
+  height: 110%;         /* matches aspect-ratio box */
+  object-fit: cover;    /* crops if necessary, no distortion */
+
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Slightly wider cards on phones */
+@media (max-width: 992px) {
   .shot {
-    flex-shrink: 0;
-    scroll-snap-align: start;
-    text-align: center;
-    width: 80vw; /* makes items smaller on mobile */
-    max-width: 800px;
+    width: 85vw;
+    margin-top: 16px;
   }
-  
-  .shot img {
-    width: 100%;
-    height: auto;
-    max-height: 490px; /* limit height on large screens */
-    border-radius: 4px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    margin-top: 24px;
-  }
-  
-  /* On smaller screens, scale down the height */
-  @media (max-width: 992px) {
-    .shot img {
-      max-height: 480px; /* or adjust to your preference */
-      margin-top: 16px;
-    }
-  
-    .shot {
-      width: 85vw;
-    }
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-  }
+}
+
+/* Generic image guardrail */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
   
   .shot-title {
     margin-top: 8px;
@@ -351,6 +356,13 @@ body footer .button-block a button {
 body footer .about {
     color: #fff;
     padding: 17px 0
+}
+.footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #888;
+  background-image: linear-gradient(to right bottom, #000000, #050505, #090909, #0d0d0d, #111111);
 }
 
 @media(min-width: 992px) {
