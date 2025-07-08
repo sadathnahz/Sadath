@@ -193,8 +193,8 @@ body article .content-wrapper {
 
 body article .content-wrapper .hero h2 {
     color: #fff;
-    font-size: calc(2.4vh + 1rem);
-    font-weight: 500;
+    font-size: 48px;
+    font-weight: 600;
     line-height: 1.15;
     margin-bottom: 12px;
     margin-top: 32px;
@@ -223,9 +223,10 @@ body article .content-wrapper .hero h2 a {
 
 body article .content-wrapper .hero p {
     word-wrap: break-word;
-    max-width: 540px;
+    max-width: 600px;
     margin-right: auto;
-    color: #e0e0db
+    font-family: 18px;
+    color: #d6d6d6
 }
 
 body article .content-wrapper .section-1 {
@@ -233,8 +234,8 @@ body article .content-wrapper .section-1 {
 }
 
 body article .content-wrapper .section-1 h3 {
-    font-size: calc(.6vw + 1rem);
-    font-weight: 400;
+    font-size: 32px;
+    font-weight: 500;
     color: #fff;
     margin-bottom: 24px;
 }
@@ -364,8 +365,8 @@ body footer .about {
 }
 
 .contact-title {
-  font-size: h3;
-  font-weight: 400;
+  font-size: 32px;
+  font-weight: 500;
   margin-bottom: 32px;
   color: #e0e0e0;
 }
