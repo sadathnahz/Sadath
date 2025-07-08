@@ -18,7 +18,7 @@ body {
     text-align: center;
   }
   body .navbar {
-    background-color: rgba(7, 7, 7, 0.8); /* 0.8 = 80% opacity */
+    background-color: rgba(0, 0, 0, 0);
     padding: 12px;
 }
 .availability-badge {
@@ -57,13 +57,13 @@ body {
   }
   
 body .navbar a {
-    font-size: calc(.6vw + 1rem);
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
     text-decoration: none
 }
 
 body .navbar a i.bi {
-    color: #fff;
+    color: #ffffff;
     font-size: 24px
 }
 
@@ -88,15 +88,15 @@ body .navbar .nav-item {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #444444, #1e1e1e);
-    color: #ffffff;
+    background: #ffffff;
+    color: #666;
     padding: 12px 28px;
     border-radius: 999px;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     text-decoration: none;
     transition: background 0.3s ease, transform 0.2s ease;
-    margin-top: 16px;
+    margin-top: 0px;
     margin-left: auto;
     gap: 8px;
     border: none;
