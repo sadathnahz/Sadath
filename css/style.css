@@ -154,9 +154,7 @@ body .navbar .nav-item {
 
 .shot img {
   width: 100%;
-  height: 110%;         /* matches aspect-ratio box */
-  object-fit: cover;    /* crops if necessary, no distortion */
-
+  height: 110%;   
   border-radius: 4px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
@@ -186,11 +184,11 @@ img {
   
   
 body article {
-    padding-top: 180px
+    padding-top: 24px
 }
 
 body article .content-wrapper {
-    padding: 12vmax 20px
+    padding: 220px 20px
 }
 
 body article .content-wrapper .hero h2 {
@@ -275,7 +273,7 @@ body article .content-wrapper .section-1 .card .card-body h5 a {
 }
 
 body article .content-wrapper .section-1 .card .card-body p {
-    color: #fff;
+    color: #999999;
     font-size: calc(0vh + 1rem)
 }
 
@@ -357,6 +355,49 @@ body footer .about {
     color: #fff;
     padding: 17px 0
 }
+/* —— Contact Section —— */
+.contact {
+  max-width: 992px;
+  margin: 0;
+  padding: 0 ;
+  font-family: "Manrope", sans-serif;
+}
+
+.contact-title {
+  font-size: h3;
+  font-weight: 400;
+  margin-bottom: 32px;
+  color: #e0e0e0;
+}
+
+/* 3-col grid on desktop, auto-stack on small screens */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 2.5rem 3rem;
+}
+
+.contact-item h3 {
+  font-size: 1.05rem;
+  font-weight: 500;
+  margin: 0 0 0.25rem;
+  color: #ffffff;
+}
+
+.contact-item a {
+  font-size: 0.95rem;
+  text-decoration: none;
+  color: #666;
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+
+.contact-item a:hover {
+  color: #d0d0d0;
+  text-decoration: underline;
+  text-underline-offset: 1px;
+}
+
+
 /* FOOTER ─────────────────────────────────────────── */
 .footer {
   text-align: center;
@@ -396,7 +437,7 @@ body footer .about {
     }
 
     body article .content-wrapper {
-        padding: 6vmax 50px
+        padding: 200px 50px 92px
     }
 
     body article .content-wrapper .hero {
