@@ -19,13 +19,13 @@ body {
   }
   body .navbar {
     background-color: rgb(0 0 0 / 0%);
-    padding: 12px;
+    padding: 20px;
 }
 .availability-badge {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    padding: 8px 16px;
+    padding: 8px 4px;
     border-radius: 999px;
     color: #2ecc71;
     font-size: 14px;
@@ -55,22 +55,31 @@ body {
     }
   }
   
-body .navbar a {
+  body .navbar a {
     font-size: 16px;
     font-weight: 600;
-    text-decoration: none
-}
-
-body .navbar a i.bi {
+    text-decoration: none;
+  }
+  
+  body .navbar a i.bi {
     color: #ffffff;
-    font-size: 24px
-}
-
-body .navbar .nav-item {
+    font-size: 24px;
+  }
+  
+  body .navbar .nav-item {
     margin-left: 3.5vw;
-    align-self: center
-}
-.navbar .nav-link {
+    align-self: center;
+  }
+  
+  /* Highlighted: Brand "sn." styling */
+  body .navbar .navbar-brand {
+    font-size: 24px;        /* larger than nav links */
+    font-weight: 600;       /* bolder */
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .navbar .nav-link {
     color: #ffffff !important;
     text-decoration: none;
     font-weight: 400;
@@ -79,10 +88,10 @@ body .navbar .nav-item {
   }
   
   .navbar .nav-link:hover {
-    
     text-underline-offset: 0px;
     color: #474747;
   }
+  
 
 .trial-button {
     display: inline-flex;
@@ -188,7 +197,7 @@ body article {
 }
 
 body article .content-wrapper {
-    padding: 220px 20px
+    padding: 180px 20px
 }
 
 body article .content-wrapper .hero h2 {
