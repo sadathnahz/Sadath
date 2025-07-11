@@ -152,7 +152,7 @@ body .navbar {
 
 .svg-bg img {
   width: 100%;
-  opacity: 2;
+  opacity: 10;
 }
 
 .workshots-scroll {
@@ -221,6 +221,33 @@ body .navbar {
   font-size: 0.95rem;
 }
 
+.about-text-section {
+  padding: 80px 0;
+  color: grey;
+}
+
+.about-text-section .about-title {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 24px;
+  color: white;
+}
+
+.about-text-section p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.about-text-section a {
+  color: #ffffff;
+  text-underline-offset: 3px;
+  font-weight: 500;
+}
+
+
 .contact {
   max-width: 960px;
   margin: 64px auto;
@@ -262,7 +289,7 @@ body .navbar {
   padding: 20px;
   font-size: 14px;
   color: #888;
-  background: #0C0C0C;
+  background: #0F0F0F;
   background-size: 200% 200%;
   animation: gradientShift 8s ease-in-out infinite alternate;
 }
