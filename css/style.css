@@ -65,8 +65,11 @@ body .navbar .navbar-brand {
   text-align: center;
 }
 body .navbar {
-  background-color: rgb(0 0 0 / 0%);
+  background-color: #aaaaaa);
   padding: 20px;
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 
@@ -136,7 +139,8 @@ body .navbar {
 
 .hero p {
   max-width: 600px;
-  color: #d6d6d6;
+  color: #aaaaaa;
+  margin-bottom: 16px;
 }
 
 .svg-bg {
@@ -214,16 +218,18 @@ body .navbar {
   text-decoration: none;
   font-weight: 400;
   font-size: 1.1rem;
+  margin:  4px 0px 20px -16px;
 }
 
 .section-1 .card-body p {
-  color: #999;
+  color: #aaaaaa;
   font-size: 0.95rem;
+  margin:  4px 0px 20px -16px;
 }
 
 .about-text-section {
-  padding: 80px 0;
-  color: grey;
+  padding: 120px 0;
+  color: #aaaaaa;
 }
 
 .about-text-section .about-title {
@@ -250,14 +256,14 @@ body .navbar {
 
 .contact {
   max-width: 960px;
-  margin: 64px auto;
+  margin: 64px 0px 120px -16px;
 }
 
 .contact-title {
   font-size: 32px;
   font-weight: 500;
   margin-bottom: 32px;
-  color: #e0e0e0;
+  color: #ffffff;
 }
 
 .contact-grid {
@@ -276,7 +282,7 @@ body .navbar {
 .contact-item a {
   font-size: 0.95rem;
   text-decoration: none;
-  color: #666;
+  color: #aaaaaa;
 }
 
 .contact-item a:hover {
@@ -286,7 +292,7 @@ body .navbar {
 
 .footer {
   text-align: center;
-  padding: 20px;
+  padding: 24px 20px 24px 20px;
   font-size: 14px;
   color: #888;
   background: #0F0F0F;
