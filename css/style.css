@@ -18,6 +18,7 @@ body {
   padding-right: 20px;
 }
 
+/* General link styling inside navbar */
 body .navbar a {
   font-size: 16px;
   font-weight: 600;
@@ -29,19 +30,27 @@ body .navbar a i.bi {
   font-size: 24px;
 }
 
+body .navbar-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 1050; /* make sure it stays above content */
+}
+
+/* Brand "sn." styling */
+body .navbar .navbar-brand {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Nav item spacing */
 body .navbar .nav-item {
   margin-left: 3.5vw;
   align-self: center;
 }
 
-/* Highlighted: Brand "sn." styling */
-body .navbar .navbar-brand {
-  font-size: 24px;        /* larger than nav links */
-  font-weight: 600;       /* bolder */
-  color: #ffffff;
-  text-decoration: none;
-}
-
+/* Nav links */
 .navbar .nav-link {
   color: #ffffff !important;
   text-decoration: none;
@@ -50,27 +59,36 @@ body .navbar .navbar-brand {
   transition: all 0.2s ease;
 }
 
-.navbar .nav-link:hover {
-  text-underline-offset: 0px;
-  color: #474747;
-}
-.about {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  min-height: 100vh;
-  padding: 20px;
-  text-align: center;
-}
+/* Navbar wrapper with responsive padding and box styling */
 body .navbar {
-  background-color: #aaaaaa);
-  padding: 20px;
+  background-color: #111;
+  border-radius: 16px;
+  border: 1px solid #242424;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  margin: 16px auto;
+  padding: 12px 24px;
   max-width: 960px;
-  margin-right: auto;
-  margin-left: auto;
+  position: relative;
+  top: 12px;
+  z-index: 1030;
 }
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  body .navbar {
+    margin: 12px 16px;
+    padding: 12px 16px;
+  }
+
+  body .navbar .navbar-brand {
+    font-size: 20px;
+  }
+
+  body .navbar a {
+    font-size: 14px;
+  }
+}
+
 
 
 .trial-button {
@@ -200,7 +218,7 @@ body .navbar {
   font-size: 32px;
   font-weight: 500;
   color: #fff;
-  margin: 64px 0 24px;
+  margin: 96px 0 24px;
 }
 
 .section-1 .card {
@@ -224,7 +242,7 @@ body .navbar {
 .section-1 .card-body p {
   color: #aaaaaa;
   font-size: 0.95rem;
-  margin:  4px 0px 20px -16px;
+  margin:  4px 0px 32px -16px;
 }
 
 .about-text-section {
